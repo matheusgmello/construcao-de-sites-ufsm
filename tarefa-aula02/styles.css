@@ -1,0 +1,31 @@
+body{
+  font-family: jetbrains mono, monospace;
+  background-color:rgb(201, 238, 250);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+h1{
+  color: #f00;
+}
+
+h2{
+  color: #0f0;
+}
+
+h3{
+  color: #00F;
+}
+
+h4{
+  color: #ff0;
+}
+
+p{
+  font-size: 1.5em;
+  color: #C0C0C0;
+}
