@@ -1,0 +1,34 @@
+body{
+  background: #708090;
+  color: #fff;
+  font-size: 14px;
+  text-align: justify;
+  font-family: Arial, sans-serif;
+  border: 4px solid #00ff;
+  margin: 25px;
+  padding: 50px;
+}
+
+a{
+  color: #fff;
+}
+
+h1{
+  font-size: 25px;
+}
+
+h2{
+  font-size: 15px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.cor1{
+  background: #000000;
+}
+
+.cor2{
+  background: #483D8B;
+}
