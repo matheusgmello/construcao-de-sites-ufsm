@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cccccc;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  border: none;
+  width: 1100px;
+  background-color: #cccccc;
+}
+
+.header {
+  background-color: #ffff;
+  text-align: center;
+}
+
+
+.header h1 {
+  background-color: #0b0b61;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.apresentacao {
+  padding-left: 10px;
+  padding-top: 5px;
+  height: 200px;
+  background-color: #ffff;
+}
+
+.apresentacao h2 {
+  font-size: 16px;
+}
+
+.apresentacao p {
+  font-size: 14px;
+}
+
+.footer {
+  font-size: 12px;
+  height: 50px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0b0b61;
+  color: #ffffff;
+  text-align: center;
+}
+
+.cursos {
+  text-align: justify;
+  padding-left: 10px;
+  padding-top: 5px;
+  background-color: #ffffff;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.cursos h2 {
+  font-size: 16px;
+}
+
+.cursos li {
+  padding: 10px;
+  font-size: 16px;
+  max-width: 90%;
+  margin-bottom: 10px;
+  text-align: justify;
+  align-items: center;
+}
+
+.corPrimaria {
+  background-color: #c0c0c0;
+}
+
+a {
+  color: #0000ff;
+  font-size: 16px;
+}
