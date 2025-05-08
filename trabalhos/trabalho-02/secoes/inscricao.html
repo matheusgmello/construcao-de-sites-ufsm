@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Comunidade Brasileira de PostgreSQL Cadastro</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/geral.css">
+</head>
+
+
+
+<body>
+	<div id="container">
+
+		<div id="header">
+			<h1>Comunidade Brasileira de PostgreSQL</h1>
+			<img src="../imagens/postgresql.png" alt="PostgreSQL">
+
+			<div id="menu">
+				<ul>
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="https://www.ufsm.br/">Downloads</a></li>
+					<li><a href="https://www.ufsm.br/">Documentação</a></li>
+					<li><a href="#">Cadastro de Usuários</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div id="form_principal">
+			<h2 class="titulodasecao">Cadastro de usuarios</h2>
+			<form method="post" action="./salva.html">
+				<p>
+					<label for="nome">Nome:</label>
+					<input name="nome" type="text" id="nome" size="50" placeholder="nome" />
+				</p>
+				<p>
+					<label for="email">E-mail:</label>
+					<input name="email" type="text" id="email" size="50" placeholder="email" />
+				</p>
+				<p>
+					<label for="nivel">Nível de Conhecimento:</label>
+					<select name="nivel" id="nivel">
+						<option value="nenhum">Nenhum</option>
+						<option value="basico">Básico</option>
+						<option value="avancado">Avançado</option>
+					</select>
+				</p>
+				<p>
+					<input type="submit" value="Gravar informacoes" />
+				</p>
+			</form>
+
+
+
+		</div>
+
+		<div id="footer">
+			<p>Comunidade Brasileira de PostgreSQL - E-Mail: pq_bras@gmail.com</p>
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>
