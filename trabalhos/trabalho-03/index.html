@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XVII ERBD 2022</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="imagens/erbd.jpg" alt="Logo" width="40" height="40">
+        <!--<span class="ms-2"></span>-->
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Programacao">Programação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Inscricao">Inscrição</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <header class="text-center my-4">
+    <div class="container">
+      <img src="imagens/banner.jpg" alt="XVII ERBD 2022" class="img-fluid">
+    </div>
+  </header>
+
+  <!-- Sobre -->
+  <section id="Sobre" class="container my-5">
+    <h1 class="text-center">Escola Regional de Banco de Dados</h1>
+    <p class="text-justify">
+      A Escola Regional de Banco de Dados (ERBD) é um evento anual, sem fins lucrativos, promovido pela Sociedade
+      Brasileira de Computação (SBC) e organizado por uma Instituição de Ensino Superior da Região Sul do Brasil. O seu
+      objetivo é atrair e integrar os participantes, oportunizando a divulgação e discussão de trabalhos em um fórum
+      regional sobre bancos de dados e áreas afins. Esta será a 17ª Edição da ERBD.
+    </p>
+
+    <!-- Programação -->
+    <div id="Programacao" class="my-5">
+      <h3 class="text-center text-white bg-dark py-2">Programação</h3>
+      <div class="table-responsive-sm">
+        <table class="table table-bordered text-center">
+          <thead>
+            <tr>
+              <th>Horário</th>
+              <th>27/06/2022</th>
+              <th>28/06/2022</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>08:30 - 10:00</td>
+              <td>Palestra 1</td>
+              <td>Sessão Técnica</td>
+            </tr>
+            <tr>
+              <td>10:00 - 10:30</td>
+              <td>Intervalo</td>
+              <td>Intervalo</td>
+            </tr>
+            <tr>
+              <td>10:30 - 12:00</td>
+              <td>Oficina 1</td>
+              <td>Oficina 2</td>
+            </tr>
+            <tr>
+              <td>19:00 - 21:00</td>
+              <td>Palestra 2</td>
+              <td>Palestra 3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Palestras -->
+    <div class="my-5">
+      <h3 class="text-center text-white bg-dark py-2">Palestras</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/palestra1.jpg" class="card-img-top" alt="Palestra 1">
+            <div class="card-body">
+              <p class="card-text">Auditório - 27/06 das 08:30hs às 10:00hs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/palestra2.jpg" class="card-img-top" alt="Palestra 2">
+            <div class="card-body">
+              <p class="card-text">Auditório - 27/06 das 19:00hs às 21:00hs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/palestra3.jpg" class="card-img-top" alt="Palestra 3">
+            <div class="card-body">
+              <p class="card-text">Auditório - 28/06 das 19:00hs às 21:00hs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Inscricao" class="container my-5">
+    <h3 class="text-center text-white bg-dark py-2">Formulário de Inscrição</h3>
+    <form class="bg-light p-4 rounded">
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome:</label>
+        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+      </div>
+      <div class="mb-3">
+        <label for="senha" class="form-label">Senha:</label>
+        <input type="password" class="form-control" id="senha" placeholder="Informe sua senha">
+      </div>
+      <div class="mb-3">
+        <label for="senha-repetir" class="form-label">Senha:</label>
+        <input type="password" class="form-control" id="senha-repetir" placeholder="Repita sua senha">
+      </div>
+      <div class="mb-3">
+        <label for="cep" class="form-label">CEP:</label>
+        <input type="text" class="form-control" id="cep" placeholder="Digite seu CEP">
+      </div>
+      <div class="mb-3">
+        <label for="cidade" class="form-label">Cidade:</label>
+        <input type="text" class="form-control" id="cidade" placeholder="Digite sua cidade">
+      </div>
+      <div class="mb-3">
+        <label for="estado" class="form-label">Estado:</label>
+        <select class="form-select" id="estado">
+          <option selected>Selecione seu estado</option>
+          <option value="RS">RS</option>
+          <option value="SC">SC</option>
+          <option value="PR">PR</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="rua" class="form-label">Rua/Av:</label>
+        <input type="text" class="form-control" id="rua" placeholder="Rua/Av. Logradouro">
+      </div>
+      <div class="mb-3">
+        <label for="numero" class="form-label">Número:</label>
+        <input type="text" class="form-control" id="numero" placeholder="Número">
+      </div>
+      <div class="mb-3">
+        <label for="complemento" class="form-label">Complemento:</label>
+        <input type="text" class="form-control" id="complemento" placeholder="Complemento">
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary">Enviar Sua Inscrição</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-light text-center py-3">
+    <div class="container">
+      <p>© 2022 ERBD - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
