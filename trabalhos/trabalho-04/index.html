@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho 04 SANF</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="banner">
+    <img src="img/sainfbanner.png" alt="Banner SAINF">
+  </header>
+  <section class="content">
+    <div class="description">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at rutrum orci. Morbi dolor libero,
+        venenatis sed maximus non, pulvinar non odio. Quisque vestibulum lorem ac dolor mollis rhoncus. Aenean
+        ullamcorper fringilla turpis, sit amet commodo leo sodales non. Sed et sollicitudin elit.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et officiis aliquid quod alias dolores, recusandae
+        reiciendis beatae veniam nesciunt ad accusantium doloremque in officia fugit voluptatibus quaerat quia excepturi
+        sit.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, commodi culpa vero accusamus nemo corrupti
+        eaque, est esse, repellat voluptatibus deleniti exercitationem modi quasi pariatur! Vitae suscipit eligendi in
+        ipsum.</p>
+    </div>
+    <div class="sponsors-placeholder">
+      <img src="img/patrocinador1.png" alt="SAP">
+      <img src="img/patrocinador2.png" alt="CAFE BOM JESUS">
+      <img src="img/patrocinador3.png" alt="TREINA WEB">
+      <img src="img/patrocinador4.png" alt="TOTVS">
+    </div>
+  </section>
+  <section class="form-section">
+    <h2>Inscrição</h2>
+    <form>
+      <fieldset>
+        <legend>Dados do Comprador</legend>
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+          <label for="registration">Matrícula:</label>
+          <input type="text" id="registration" name="registration" placeholder="Digite sua matrícula">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu email">
+        </div>
+        <div class="form-group">
+          <label for="course">Curso:</label>
+          <select id="course" name="course">
+            <option value="sistemas">Sistemas para Internet</option>
+            <option value="engenharia">Engenharia de Software</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Escolha o Combo</legend>
+        <div class="form-group">
+          <label for="combo">Combo:</label>
+          <select id="combo" name="combo">
+            <option value="inscricao">Inscrição</option>
+            <option value="combo">Combo</option>
+            <option value="comboecopo">Combo+Copo</option>
+            <option value="comboecamisa">Combo+Camisa</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Total da inscrição + combo</legend>
+        <div class="form-group">
+          <label for="total">Total:</label>
+          <input type="text" id="total" name="total" >
+        </div>
+      </fieldset>
+      <button type="submit">Confirmar</button>
+    </form>
+  </section>
+</body>
+
+</html>
