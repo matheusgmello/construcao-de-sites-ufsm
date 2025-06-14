@@ -1,0 +1,38 @@
+body {
+     font-family: Arial, sans-serif;
+}
+ img {
+     max-height: 200px;
+     margin-bottom: 10px;
+}
+ .card-img-top {
+     height: 200px;
+     object-fit: cover;
+}
+ .menu-link {
+     color:rgb(255, 255, 255);
+     text-decoration: none;
+     font-size: 1.2rem;
+     font-weight: 500;
+     transition: color 0.2s;
+}
+ .menu-link:hover {
+     color: #d4fcdc;
+     text-decoration: none;
+}
+
+ .card {
+     cursor: pointer;
+     overflow: hidden;
+     transition: transform 0.3s ease;
+}
+ .card:hover {
+     transform: scale(1.02);
+}
+ .card img {
+     transition: transform 0.3s ease;
+}
+ .card:hover img {
+     transform: scale(1.1);
+}
+ 

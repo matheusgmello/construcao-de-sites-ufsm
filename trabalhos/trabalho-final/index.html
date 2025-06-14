@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frutaria Verde Vida</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <!-- SECAO DO HEADER -->
+
+  <header class="bg-success text-white p-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="fs-3 m-0">Frutaria Verde Vida</h1>
+      <nav>
+        <a href="#sobre" class="menu-link mx-3">Sobre</a>
+        <a href="#produtos" class="menu-link mx-3">Produtos</a>
+        <a href="#contato" class="menu-link mx-3">Contato</a>
+        <a href="sections/form.html" class="menu-link mx-3">Fazer Pedido</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- SECAO DE SOBRE -->
+
+  <section id="sobre" class="container my-5 text-justify">
+    <h2>Sobre Nós</h2>
+    <p>
+      Com o compromisso de nutrir vidas, a Frutaria Verde Vida destaca-se por ir além do tradicional, entregando sabor
+      e saúde diretamente do campo à sua mesa. Acreditamos que uma alimentação equilibrada é a base para o bem-estar, e
+      é por isso que selecionamos cuidadosamente cada fruta e hortaliça, garantindo frescor e qualidade inigualáveis.
+      <br>
+      Na Frutaria Verde Vida, o caminho do alimento é transparente: do produtor ao consumidor, sem intermediários
+      desnecessários. Isso se traduz em preços justos para você e valorização do trabalho de quem cultiva. Nosso
+      catálogo é um convite à diversidade, oferecendo uma vasta gama de produtos da estação, ricos em nutrientes e
+      ideais para uma dieta variada e deliciosa.
+      <br>
+      Entendemos a correria do dia a dia, e por isso, facilitamos o acesso a uma alimentação saudável, seja para um
+      lanche rápido, uma refeição em família ou a base para suas receitas favoritas. Venha descobrir a explosão de cores
+      e sabores que a natureza nos oferece e sinta a diferença que produtos frescos podem fazer em sua rotina.
+    </p>
+  </section>
+
+  <!-- SECAO DE PRODUTOS -->
+
+  <section id="produtos" class="container my-5">
+    <h2>Produtos</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalBanana">
+          <img src="images/fruta1.jpg" class="card-img-top" alt="Banana Nanica">
+          <div class="card-body text-center">
+            <p class="card-text">Banana Nanica</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalMaca">
+          <img src="images/fruta2.jpg" class="card-img-top" alt="Maçã Fuji">
+          <div class="card-body text-center">
+            <p class="card-text">Maçã Fuji</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalTomate">
+          <img src="images/fruta3.jpg" class="card-img-top" alt="Tomate Italiano">
+          <div class="card-body text-center">
+            <p class="card-text">Tomate Italiano</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalAlface">
+          <img src="images/fruta4.jpg" class="card-img-top" alt="Alface Crespa">
+          <div class="card-body text-center">
+            <p class="card-text">Alface Crespa</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalMorango">
+          <img src="images/fruta5.jpg" class="card-img-top" alt="Morango Orgânico">
+          <div class="card-body text-center">
+            <p class="card-text">Morango Orgânico</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalCenoura">
+          <img src="images/fruta6.jpg" class="card-img-top" alt="Cenoura">
+          <div class="card-body text-center">
+            <p class="card-text">Cenoura</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAIS DE PRODUTOS -->
+
+  <!-- Modal Banana Nanica -->
+  <div class="modal fade" id="modalBanana" tabindex="-1" aria-labelledby="modalBananaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalBananaLabel">Banana Nanica</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          Rica em potássio e sabor, a Banana Nanica é ideal para lanches saudáveis e preparo de sobremesas.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Maçã Fuji -->
+  <div class="modal fade" id="modalMaca" tabindex="-1" aria-labelledby="modalMacaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalMacaLabel">Maçã Fuji</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          Maçãs Fuji selecionadas, com sabor doce e textura crocante, perfeitas para o consumo in natura.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Tomate Italiano -->
+  <div class="modal fade" id="modalTomate" tabindex="-1" aria-labelledby="modalTomateLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTomateLabel">Tomate Italiano</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          Tomates italianos frescos, ideais para molhos encorpados e saladas com um toque especial.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Alface Crespa -->
+  <div class="modal fade" id="modalAlface" tabindex="-1" aria-labelledby="modalAlfaceLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalAlfaceLabel">Alface Crespa</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          Alface crespa cultivada sem agrotóxicos, excelente para saladas leves e nutritivas.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Morango Orgânico -->
+  <div class="modal fade" id="modalMorango" tabindex="-1" aria-labelledby="modalMorangoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalMorangoLabel">Morango Orgânico</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          Morangos fresquinhos e orgânicos, direto do campo para sua mesa com muito sabor.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Cenoura -->
+  <div class="modal fade" id="modalCenoura" tabindex="-1" aria-labelledby="modalCenouraLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalCenouraLabel">Cenoura</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          Cenouras crocantes e cheias de vitamina A, ideais para sucos, sopas e saladas.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECAO DE FOOTER -->
+
+  <footer id="contato" class="bg-dark text-white p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <h5>Frutaria Verde Vida</h5>
+          <p>Rua das Flores, 123 - Centro</p>
+          <p>Telefone: (55) 99999-9999</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <h5>Contato</h5>
+          <p>Email: contato@verdevida.com</p>
+          <p>Atendimento: Seg à Sab, das 8h às 18h</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
