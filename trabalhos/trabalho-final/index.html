@@ -15,11 +15,31 @@
   <header class="bg-success text-white p-3">
     <div class="container d-flex justify-content-between align-items-center">
       <h1 class="fs-3 m-0">Frutaria Verde Vida</h1>
-      <nav>
+
+      <!-- Botão hamburguer visível apenas no mobile -->
+      <button class="navbar-toggler d-lg-none border-0 bg-transparent p-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="images/menu.svg" alt="Menu" style="width: 30px; height: auto;">
+      </button>
+
+
+
+      <!-- Menu normal em telas grandes -->
+      <nav class="d-none d-lg-flex">
         <a href="#sobre" class="menu-link mx-3">Sobre</a>
         <a href="#produtos" class="menu-link mx-3">Produtos</a>
         <a href="#contato" class="menu-link mx-3">Contato</a>
         <a href="sections/form.html" class="menu-link mx-3">Fazer Pedido</a>
+      </nav>
+    </div>
+
+    <!-- Menu colapsável em mobile -->
+    <div class="collapse d-lg-none bg-success px-3" id="mobileMenu">
+      <nav class="d-flex flex-column align-items-start py-2">
+        <a href="#sobre" class="menu-link mb-2">Sobre</a>
+        <a href="#produtos" class="menu-link mb-2">Produtos</a>
+        <a href="#contato" class="menu-link mb-2">Contato</a>
+        <a href="sections/form.html" class="menu-link mb-2">Fazer Pedido</a>
       </nav>
     </div>
   </header>

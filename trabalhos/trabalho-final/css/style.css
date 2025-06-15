@@ -1,38 +1,72 @@
 body {
-     font-family: Arial, sans-serif;
-}
- img {
-     max-height: 200px;
-     margin-bottom: 10px;
-}
- .card-img-top {
-     height: 200px;
-     object-fit: cover;
-}
- .menu-link {
-     color:rgb(255, 255, 255);
-     text-decoration: none;
-     font-size: 1.2rem;
-     font-weight: 500;
-     transition: color 0.2s;
-}
- .menu-link:hover {
-     color: #d4fcdc;
-     text-decoration: none;
+  font-family: Arial, sans-serif;
 }
 
- .card {
-     cursor: pointer;
-     overflow: hidden;
-     transition: transform 0.3s ease;
+img {
+  max-height: 200px;
+  margin-bottom: 10px;
 }
- .card:hover {
-     transform: scale(1.02);
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
 }
- .card img {
-     transition: transform 0.3s ease;
+
+.menu-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.2s;
 }
- .card:hover img {
-     transform: scale(1.1);
+
+.menu-link:hover {
+  color: #d4fcdc;
+  text-decoration: none;
 }
- 
+
+.card {
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+
+.navbar-toggler img {
+  vertical-align: middle;
+}
+
+
+.navbar-toggler {
+  margin-top: 4px;
+  margin-left: auto; 
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  #mobileMenu .menu-link {
+    font-size: 1.2rem;
+    padding: 8px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  #mobileMenu nav {
+    width: 100%;
+    text-align: center;
+    align-items: center !important;
+  }
+}
